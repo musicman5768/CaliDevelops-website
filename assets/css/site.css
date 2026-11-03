@@ -145,7 +145,7 @@ blockquote { font-size: clamp(1.3rem, 3vw, 2.15rem); line-height: 1.3; margin-to
   font-size: .86rem;
   text-align: center;
 }
-.media-slot :is(img, video) { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: contain; }
+.media-slot :is(img, video) { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; }
 figcaption { padding: .85rem 1rem; }
 figcaption, .app-content > p:not(.eyebrow) { color: var(--muted); }
 .app-card, .app-content { display: flex; flex-direction: column; }
