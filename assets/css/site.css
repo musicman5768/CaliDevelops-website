@@ -159,3 +159,19 @@ figcaption, .app-content > p:not(.eyebrow) { color: var(--muted); }
   .about-grid { align-items: start; }
   .hero { grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); }
 }
+
+/* Ringistics release: readable instructions and a full-width app listing. */
+.ringistics-release { grid-column: 1 / -1; min-width: 0; }
+.ringistics-release .app-content { min-width: 0; }
+.ringistics-copy, .ringistics-guide { max-width: 65ch; }
+.ringistics-copy p + p, .ringistics-guide p + p { margin-top: .8rem; }
+.ringistics-release .actions { margin-top: 1rem; padding-top: 0; }
+.ringistics-release .button { max-width: 100%; text-align: center; }
+.ringistics-release .release-version { margin-top: .75rem; }
+.ringistics-guide h3 { margin: 2rem 0 .75rem; font-size: 1.4rem; }
+.ringistics-guide h4 { margin: 1.4rem 0 .65rem; font-size: 1.1rem; }
+.ringistics-guide ol, .ringistics-guide ul { padding-left: 1.5rem; }
+.ringistics-guide li + li { margin-top: .6rem; }
+.ringistics-guide .shipment-reminder { margin-top: 1rem; padding: 1rem; border-left: 3px solid var(--accent); background: var(--bg); }
+
+.ringistics-release > .media-slot { aspect-ratio: auto; min-height: 8rem; }
